@@ -1,0 +1,211 @@
+body{
+    text-align: center;
+    margin: 0;
+    
+
+}
+
+hr{
+    width: 7%;
+    margin-top: 0;
+    border : none ;
+    border-top-style: dotted;
+    border-color : white;
+    
+    
+    border-width: 10px;
+    top: 100px;
+}
+
+
+/*************************    class salector    *********************/
+
+
+.top-div{
+    position: relative;
+    background-color: #B5EAEA;
+    height: 800px;
+
+}
+
+.top-cloud{
+    position:relative;
+    top: 100px;
+    left: 340px;
+}
+
+.bottom-cloud{
+    position: relative;
+    bottom: 100px;
+    right  : 10px;
+}
+
+.free-cloud{
+    position: absolute;
+    bottom: 100px;
+    right  : 10px;
+    animation: free 25s infinite;
+}
+
+
+@keyframes free{
+    0%{
+        transform: translateX(0);
+
+    }
+    
+    50%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+
+    }
+}
+
+
+    
+.second-div{
+    margin: 0;
+    background-color: #A0C3D2;
+    position: relative;
+}
+
+.my-picture{
+    margin: 0;
+    border : solid 3px;
+    border-color : #FAD6A5;
+    position: relative;
+    border-radius: 10%;
+    height: 400px;
+    width: 300px;
+}
+
+
+.cloud{
+
+    
+    animation: bouncing 4s infinite;
+
+}
+
+@keyframes bouncing {
+    0%{
+        transform: translateX(0);
+
+    }
+    50%{
+        transform: translateX(-30px);
+
+    }
+    100%{
+        transform: translateX(0);
+
+    }
+}
+
+.mountain{
+    position: relative;
+    top: 310px;
+}
+
+
+.bio{
+    position: relative;
+    
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+}
+
+.mohammad{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    top : 200px;
+}
+
+.about-me{
+    position: relative;
+    
+    font-family: 'roboto', sans-serif;
+}
+.student{
+    position: relative;
+    top : 200px;
+    font-family: cursive;
+}
+
+/*************************  social media part    *****************/
+
+.social-media {
+    position: relative;
+    margin-top: 100px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+}
+.contact-info{
+    position: relative;
+    
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    bottom: 25px;
+    display: none;
+}
+
+.facebook{
+    position: relative;
+    color : gray;
+    right : 200px;
+    bottom: 25px;
+    
+    
+    
+    
+
+}
+
+.facebook:hover{
+    color : rgb(38, 0, 255);
+    transition: color 1.4s ;
+}
+
+
+.instagram{
+    position: relative;
+    color : gray;
+    right : 50px;
+    bottom: 25px;
+    
+}
+
+.instagram:hover{
+    color : rgb(225, 112, 251);
+    transition: color 1.4s ;
+}
+
+.twitter{
+    position: relative;
+    color : gray;
+    left: 100px;
+    bottom: 25px;
+    
+}
+.twitter:hover{
+    color : rgb(38, 0, 255);
+    transition: color 1.4s ;
+}
+
+.snapchat{
+    position: relative;
+    color : gray;
+    left: 250px;
+    bottom: 25px;
+}
+.snapchat:hover{
+    color : rgb(229, 254, 0);
+    transition: color 1.4s ;
+}
+
+
+/*************************    ID Salector    *****************/
+
+
